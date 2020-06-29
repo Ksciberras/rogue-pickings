@@ -1,0 +1,244 @@
+body {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 0 1.25rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+h1 {
+  font-size: 1.875rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.125rem;
+}
+h4 {
+  font-size: 0.75rem;
+}
+
+p {
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  padding: 0 1.875rem;
+}
+
+/*The widths are in a percentage!*/
+header {
+  border-bottom: 3px solid #77a466;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  padding: 1.25‬0rem 1.875rem;
+  width: 90%;
+  margin: 0 0.625rem;
+  border-bottom: 3px solid #77a466;
+  text-align: center;
+}
+header h1 span {
+  color: #77a466;
+}
+
+header nav {
+  padding: 0.625rem 0;
+}
+header nav ul {
+  margin: 0;
+  padding: 0;
+}
+header nav ul li {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.9375rem 0;
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #77a466;
+}
+
+/*The widths are in a percentage!*/
+.main-image {
+  height: auto;
+}
+.main-image img {
+  width: 100%;
+  border-bottom: 3px solid #77a466;
+}
+
+.main-title {
+  height: auto;
+  padding: 0px 0.625rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-title h3 {
+  text-align: center;
+  padding: 5px 0;
+  color: #77a466;
+}
+.main-title p {
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1.5625rem;
+  text-align: center;
+}
+.bottom-section {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-section h4 {
+  padding: 0.625rem 0;
+  text-align: center;
+}
+.section-one,
+.section-two,
+.section-three {
+  height: auto;
+  border-top: 1px solid #eee;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+.menu li {
+  padding: 0.625rem 0;
+  color: #77a466;
+  text-align: center;
+}
+
+.reviews {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.3125rem;
+  text-align: center;
+}
+
+.address {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+/*The widths are in a percentage!*/
+footer {
+  height: 3.125rem;
+  border-top: 3px solid #eee;
+  margin: 0 auto;
+  text-align: center;
+}
+footer span {
+  font-family: "Galada", cursive;
+  text-transform: lowercase;
+  color: #77a466;
+  font-size: 0.875rem;
+}
+@media (min-width: 768px) {
+  .main-title {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .main-title p {
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.5625rem;
+    text-align: left;
+  }
+  .bottom-section {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-top: 1px solid #eee;
+  }
+  .bottom-section h4 {
+    padding: 0.625rem 0;
+    text-align: center;
+    margin: 0;
+  }
+  .section-one,
+  .section-two,
+  .section-three {
+    height: auto;
+    width: 33%;
+    border-top: 0px solid #eee;
+  }
+  .menu li {
+    text-align: left;
+  }
+  .menu li {
+    padding: 0.625rem 0.625rem;
+    color: #77a466;
+    text-align: left;
+  }
+}
+@media (min-width: 60rem) {
+  header {
+    border-bottom: 3px solid #77a466;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header h1 {
+    margin: 0;
+    padding: 1.25rem 0;
+    width: 90%;
+    margin: 0 0;
+    border-bottom: 0px solid #77a466;
+    text-align: left;
+  }
+  header h1 span {
+    color: #77a466;
+  }
+
+  header nav {
+    padding: 0.625rem 0;
+  }
+  header nav ul {
+    display: flex;
+  }
+  header nav ul li {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 0.9375rem 0;
+    list-style: none;
+  }
+  header nav ul li a {
+    text-decoration: none;
+    color: #77a466;
+    margin: 0 0.625rem;
+  }
+}
